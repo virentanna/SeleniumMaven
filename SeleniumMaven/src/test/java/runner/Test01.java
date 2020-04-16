@@ -11,6 +11,7 @@ public class Test01 {
 
 	public static void main(String[] args) {
 
+//		Create WebDriver object
 		WebDriver driver;
 
 		Logger log = Logger.getLogger("Test01");
