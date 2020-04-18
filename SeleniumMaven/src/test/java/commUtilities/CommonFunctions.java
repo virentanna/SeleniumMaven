@@ -77,4 +77,5 @@ public class CommonFunctions {
 		FileUtils.copyFile(scrFile, new File("screenshots\\" + screenshotname + ".png"));					
 
     }
+    
 }

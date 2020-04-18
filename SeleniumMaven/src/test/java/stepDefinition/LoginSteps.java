@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import org.openqa.selenium.*;
 import commUtilities.CommonFunctions;
+import commUtilities.ConfigDataProvider;
+import commUtilities.ExcelDataProvider;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -17,12 +19,15 @@ public class LoginSteps extends CommonFunctions {
 
 	@Given("^User opens the Guru(\\d+)\\.com website$")
 	public void user_opens_the_Guru_com_website(int arg1) {
-
+		ConfigDataProvider config = new ConfigDataProvider();
+		
         log.info("Browser Launch : Started");
-		driver = CommonFunctions.openBrowser(driver, "Chrome");
+//		driver = CommonFunctions.openBrowser(driver, "Chrome");
+        driver = CommonFunctions.openBrowser(driver, config.getConfigData("Browser"));
         log.info("Browser Launch : Completed");
-		baseUrl = CommonFunctions.BASE_URL;
-		driver.get(baseUrl + "/V4/");
+//		baseUrl = CommonFunctions.BASE_URL;
+//		driver.get(baseUrl + "/V4/");
+        driver.get(config.getConfigData("URL"));
 		log.info("Website URL launched : Completed");
 	}
 
@@ -98,9 +103,11 @@ public class LoginSteps extends CommonFunctions {
 	
 	@When("^User enters the credentials and click on Login button$")
 	public void user_enters_the_credentials_and_click_on_Login_button() {
+		ExcelDataProvider excel = new ExcelDataProvider();
 		LoginPage LoginPage = new LoginPage();
 		log.info("User logged in : Started");
-		LoginPage.loginTOGuru99(driver, "mngr252543", "saqysUq");
+//		LoginPage.loginTOGuru99(driver, "mngr252543", "saqysUq");
+		LoginPage.loginTOGuru99(driver, excel.getStringData(0, 0, 0), excel.getStringData(0, 0, 1));
 		log.info("User logged in : Completed");
 	}
 

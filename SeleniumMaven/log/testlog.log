@@ -14,3 +14,27 @@
 2020-04-14 22:59:59,611 - SmokeTest -INFO - Welcome page verification : Started
 2020-04-14 22:59:59,660 - SmokeTest -INFO - Welcome page verification : Completed
 2020-04-14 23:00:02,584 - SmokeTest -INFO - Browser Closed...
+2020-04-16 22:24:17,485 - SmokeTest -INFO - Browser Launch : Started
+2020-04-16 22:24:32,563 - SmokeTest -INFO - Browser Launch : Completed
+2020-04-16 22:24:36,210 - SmokeTest -INFO - Website URL launched : Completed
+2020-04-16 22:24:36,280 - SmokeTest -INFO - User logged in : Started
+2020-04-16 22:24:38,121 - SmokeTest -INFO - User logged in : Completed
+2020-04-16 22:24:38,122 - SmokeTest -INFO - Welcome page verification : Started
+2020-04-16 22:24:38,165 - SmokeTest -INFO - Welcome page verification : Completed
+2020-04-16 22:24:40,969 - SmokeTest -INFO - Browser Closed...
+2020-04-18 16:43:29,071 - SmokeTest -INFO - Browser Launch : Started
+2020-04-18 16:43:42,659 - SmokeTest -INFO - Browser Launch : Completed
+2020-04-18 16:43:44,973 - SmokeTest -INFO - Website URL launched : Completed
+2020-04-18 16:43:56,599 - SmokeTest -INFO - User logged in : Started
+2020-04-18 16:43:57,988 - SmokeTest -INFO - User logged in : Completed
+2020-04-18 16:43:57,990 - SmokeTest -INFO - Welcome page verification : Started
+2020-04-18 16:43:58,047 - SmokeTest -INFO - Welcome page verification : Completed
+2020-04-18 16:44:02,790 - SmokeTest -INFO - Browser Closed...
+2020-04-18 16:58:47,499 - SmokeTest -INFO - Browser Launch : Started
+2020-04-18 16:58:53,155 - SmokeTest -INFO - Browser Launch : Completed
+2020-04-18 16:58:54,473 - SmokeTest -INFO - Website URL launched : Completed
+2020-04-18 16:58:55,154 - SmokeTest -INFO - User logged in : Started
+2020-04-18 16:58:57,910 - SmokeTest -INFO - User logged in : Completed
+2020-04-18 16:58:57,940 - SmokeTest -INFO - Welcome page verification : Started
+2020-04-18 16:58:57,998 - SmokeTest -INFO - Welcome page verification : Completed
+2020-04-18 16:59:03,657 - SmokeTest -INFO - Browser Closed...
