@@ -9,10 +9,13 @@ public class LoginPage {
 	public static By passWD = By.name("password");
 	public static By btnLogin = By.name("btnLogin");
 	
-	public void loginTOGuru99(WebDriver driver,String uName,String pwd)
+	public void loginTOGuru99(WebDriver driver,String uName,String pwd)throws Exception
 	{
+		Thread.sleep(3000);
 		driver.findElement(userName).sendKeys(uName);
+		Thread.sleep(3000);
 		driver.findElement(passWD).sendKeys(pwd);
+		Thread.sleep(3000);
 		driver.findElement(btnLogin).click();
 	}
 	

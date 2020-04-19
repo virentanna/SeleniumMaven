@@ -50,28 +50,28 @@ formatter.match({
   "location": "LoginSteps.user_opens_the_Guru_com_website(int)"
 });
 formatter.result({
-  "duration": 7205524177,
+  "duration": 11843551021,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_enters_the_credentials_and_click_on_Login_button()"
 });
 formatter.result({
-  "duration": 3459801287,
+  "duration": 10765733778,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.user_is_able_to_view_the_welcome_page()"
 });
 formatter.result({
-  "duration": 59256350,
+  "duration": 50821594,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.application_should_be_closed()"
 });
 formatter.result({
-  "duration": 5656862794,
+  "duration": 3505916152,
   "status": "passed"
 });
 });

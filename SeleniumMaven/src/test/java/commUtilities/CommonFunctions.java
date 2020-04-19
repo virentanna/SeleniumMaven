@@ -11,6 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class CommonFunctions {
 	
@@ -57,7 +58,8 @@ public class CommonFunctions {
     	}
     	else if(browserName.equals("IE"))
     	{
-    		
+    		System.setProperty("webdriver.ie.driver", CommonFunctions.IE_PATH);
+            driver = new InternetExplorerDriver();    		
     	}
     	else
     	{

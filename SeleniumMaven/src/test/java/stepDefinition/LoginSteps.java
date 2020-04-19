@@ -102,7 +102,7 @@ public class LoginSteps extends CommonFunctions {
 	}
 	
 	@When("^User enters the credentials and click on Login button$")
-	public void user_enters_the_credentials_and_click_on_Login_button() {
+	public void user_enters_the_credentials_and_click_on_Login_button() throws Exception {
 		ExcelDataProvider excel = new ExcelDataProvider();
 		LoginPage LoginPage = new LoginPage();
 		log.info("User logged in : Started");
